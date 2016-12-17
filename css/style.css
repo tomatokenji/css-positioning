@@ -3,9 +3,110 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+html{
+    height: 100%;
+}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  height: 100%;
+  text-align: center;
+
+}
+
+a{
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+
+
+}
+
+h2{
+  color:#06365f;
+}
+
+.background {
+  background: linear-gradient(45deg,#1c5380,#06365f);
+  position: absolute;
+  width:100%;
+  height:40%;
+  z-index: -2;
+}
+
+.flex{
+  display: flex;
+  height: 80%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 5%;
+    overflow:scroll;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.header>img{
+}
+
+.header>a{
+  background-color:#1c5380;
+  color:grey;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.main-text{
+  position: relative;
+  float: right;
+  height: 90%;
+  width: 50%;
+  text-align: left;
+
+}
+
+.download{
+  display: flex;
+}
+
+.download>a{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.phone{
+  float: left;
+  height: 90%;
+  margin-right: 5%;
+}
+
+.footer{
+  display: flex;
+  color: grey;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.box-text{
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.footer a, .footer p{
+  display: inline-block;
+
 }
